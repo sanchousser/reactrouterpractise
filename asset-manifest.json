@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactrouterpractise/static/css/main.7acaea2f.css",
+    "main.js": "/reactrouterpractise/static/js/main.e0575f12.js",
+    "index.html": "/reactrouterpractise/index.html",
+    "main.7acaea2f.css.map": "/reactrouterpractise/static/css/main.7acaea2f.css.map",
+    "main.e0575f12.js.map": "/reactrouterpractise/static/js/main.e0575f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.e0575f12.js"
+  ]
+}
