@@ -1,16 +1,18 @@
+import { Routes, Route } from "react-router";
+import BooksPage from './../pages/BooksPage/BooksPage'
+import { Navigation } from "./Navigation/Navigation";
+import HomePage from "pages/HomePage/HomePage";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<HomePage />} />
+          <Route path="/books" element={<BooksPage />} />
+        </Route>
+
+      </Routes>
     </div>
   );
 };

@@ -1,0 +1,13 @@
+.books__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.books__list li {
+    border: 3px solid yellowgreen;
+    border-radius: 15px;
+}

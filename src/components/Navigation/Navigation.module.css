@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.link {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.link__active {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
